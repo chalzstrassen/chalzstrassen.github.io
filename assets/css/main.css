@@ -24,7 +24,10 @@
 	body {
 		line-height: 1;
 	}
-
+	
+	textarea {
+		height: 150px;
+	}
 	ol, ul {
 		list-style: none;
 	}
@@ -45,6 +48,38 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+	}
+
+/* Mouse over show */
+	.mouse-over-img {
+		display: none;
+		position: absolute;
+		top: 10px;
+		left: -20px;
+	}
+	.triangle:after {
+		content: " ";
+	}
+	.popup:hover .triangle {
+		position: absolute;
+		display: block;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #280353;
+		top: 20px;
+		left: 10px;
+	}
+	.popup {
+		position: relative;
+	}
+	.popup:hover {
+		background: #280353;
+		color: white;
+	}
+	.popup:hover .mouse-over-img {
+		display: block;
 	}
 
 /* Box Model */
