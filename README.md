@@ -17,3 +17,7 @@ Credits:
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
+
+## Other modules
+
+- [Pure.css](http://purecss.io/)
