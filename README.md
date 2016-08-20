@@ -1,6 +1,6 @@
 # chachen.info
 
-## [Live](http://www.chachen.info/)
+## [Live](http://chalzstrassen.github.io/)
 
 ## Template used
 
